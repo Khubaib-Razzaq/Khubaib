@@ -14,15 +14,16 @@ const ProjectCard = ({
             toggler={toggleImageViewer}
             sources={image}
         />
-        <div className="text-grayscale-300 p-5 rounded-lg lg:w-1/4 sm:w-1/2">
+        <div className="text-grayscale-300 m-6 p-5 border-4 hover:bg-primary-700 rounded-lg lg:w-[45%] sm:w-[95%] border-primary-400">
         <div
-          onClick={()=>setToggleImageViewer(!toggleImageViewer)}
-          className="relative w-full h-[180px]">
-          <img
-              src={image[0]}
-              alt={name}
-              className="w-full h-full rounded-lg"
-          />
+            onClick={()=>setToggleImageViewer(!toggleImageViewer)}
+            className="relative w-full  h-[240px] cursor-pointer">
+            <img
+                src={image[0]}
+                alt={name}
+                className="w-full h-full rounded-lg absolute inset-0  bg-cover bg-center z-0"
+            />
+              <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-2xl text-white font-semibold">Click to View</div>
         </div>
 
         <div className="mt-3">

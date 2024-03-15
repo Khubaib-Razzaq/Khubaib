@@ -26,8 +26,17 @@ import ppcmanage from "./skills/PPC-MARKETING.png"
 import amazonCentral from "./skills/amazonsellerc.png"
 import amazonList from "./skills/amazonoptimixing.jpg"
 import certificate from "./certificate/certificate.jpg"
+import longterm1 from "./projects/longterm1.png"
+import longterm2 from "./projects/longterm2.png"
+import longterm3 from "./projects/longterm3.png"
+import longterm4 from "./projects/longterm4.png"
+
 
 export {
+    longterm1,
+    longterm2,
+    longterm3,
+    longterm4,
     vc,
     certificate,
     compaignManagement,

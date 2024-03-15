@@ -1,6 +1,10 @@
 import {avatar} from "../assets"
 
 import{
+    longterm1,
+    longterm2,
+    longterm3,
+    longterm4,
     acheivementsIn20241,
     acheivementsIn20242,
     acheivementsIn20243,
@@ -103,31 +107,37 @@ const skills = [
 
 const projects = [
   {
+    name: "Campaign Optimization: Reduce ACOS, Maximize Sales Growth with PPC",
+    description: "As a testament to my expertise in Amazon PPC management, I proudly present an example of my past work. I took a client's underperforming Amazon account and transformed it into a high-impact sales generator. My meticulous PPC optimization strategies resulted in increased visibility, higher sales, and improved ROI. Through rigorous keyword research, creative ad campaigns, and strategic bid management, I achieved remarkable results. This case serves as a tangible demonstration of my ability to deliver outstanding outcomes for my clients. Let me replicate this success for your business and drive your Amazon sales to new heights.",
+    image: [acheivementsIn20241,acheivementsIn20242,acheivementsIn20243,acheivementsIn20244,acheivementsIn20245,],
+  },{
+    name: "Keyword Research",
+    description: "Proficient in the intricacies of Helium 10 and Jungle Scout, I specialize in extracting actionable insights for unparalleled Amazon PPC success. My track record speaks for itself, showcasing a talent for turning strategic analysis into high-impact campaigns that consistently outperform expectations",
+    image: [keywordResearch1,keywordResearch4,keywordResearch2,keywordResearch3,keywordResearch5],
+  },
+{
     name: "Reports",
     description: "I offer comprehensive reporting services for Amazon PPC campaigns. From real-time Daily Status Updates (DSU) to weekly account summaries and monthly sales analysis, clients receive actionable insights to optimize performance and drive growth.",
     image: [report1,report3,report2],
   },{
-    name: "Campaign Optimization: Reduce ACOS, Maximize Sales Growth with PPC",
-    description: "I bring a wealth of experience in the realm of Amazon PPC advertising, having successfully collaborated with notable companies and agencies, where I played a pivotal role in optimizing Amazon PPC campaigns. , I refined my skills in strategic campaign planning, keyword optimization, and data-driven decision-making within the Amazon ecosystem. My track record reflects a commitment to delivering tangible results, enhancing brand visibility, and driving conversions. I am well-versed in the intricacies of Amazon PPC, and my proficiency is geared towards ensuring clients achieve their digital marketing objectives efficiently and effectively",
-    image: [acheivementsIn20241,acheivementsIn20242,acheivementsIn20243,acheivementsIn20244,acheivementsIn20245,],
-  },{
     name: "Experince With Companies",
     description: "I bring a wealth of experience in the realm of Amazon PPC advertising, having successfully collaborated with notable companies and agencies, where I played a pivotal role in optimizing Amazon PPC campaigns. , I refined my skills in strategic campaign planning, keyword optimization, and data-driven decision-making within the Amazon ecosystem. My track record reflects a commitment to delivering tangible results, enhancing brand visibility, and driving conversions. I am well-versed in the intricacies of Amazon PPC, and my proficiency is geared towards ensuring clients achieve their digital marketing objectives efficiently and effectively",
-    image: [experincewithothers1,experincewithothers2,experincewithothers3],
+    image: [experincewithothers2,experincewithothers1,experincewithothers3],
   },{
-    name: "Keyword Research",
-    description: "Proficient in the intricacies of Helium 10 and Jungle Scout, I specialize in extracting actionable insights for unparalleled Amazon PPC success. My track record speaks for itself, showcasing a talent for turning strategic analysis into high-impact campaigns that consistently outperform expectations",
-    image: [keywordResearch4,keywordResearch3,keywordResearch2,keywordResearch1,keywordResearch5],
+    name: "Long-Term Success: Exceeding ACoS and Budget Targets",
+    description: "With a proven track record of successfully managing long-term Amazon PPC projects, I have consistently achieved all targets, including ACOS and budget objectives. Through strategic planning, meticulous campaign management, and continuous optimization, I have delivered exceptional results, surpassing client expectations. My dedication to excellence and expertise in navigating the intricacies of Amazon PPC enable me to drive significant growth while ensuring optimal return on investment. Looking forward to applying my skills and experience to your next project.",
+    image: [longterm1,longterm2,longterm3,longterm4],
   },
-    ]
+]
 
 const introduction = {
   text: [
-    "Hello there! I'm Khubaib Razzaq, an experienced Amazon PPC specialist with four years of focused expertise. I've worked on various projects, helping numerous businesses succeed by improving visibility and boosting sales on the platform.",
+    "Hello there! 👋 I'm Khubaib Razzaq, an experienced Amazon PPC specialist with four years of focused expertise. 💼 I've worked on various projects, helping numerous businesses succeed by improving visibility 🌟 and boosting sales 📈 on the platform. 🚀",
 
-    "I'm passionate about smart strategies that minimize ACoS. Using Helium 10 and Jungle Scout, I research keywords and competitors. I create ranking campaigns for high-performing keywords, targeting ASINs to enhance visibility and rankings on Amazon.",
+    "I'm passionate about smart strategies that minimize ACoS, 💡 using tools like Helium 10 and Jungle Scout to research keywords 📊 and competitors. 🔍 I create ranking campaigns for high-performing keywords, targeting ASINs to enhance visibility and rankings on Amazon. 🎯",
 
-    "Certified and dedicated to excellence, I love pushing the boundaries in the ever-changing world of Amazon advertising. If you're looking to unlock your brand's Amazon PPC potential and achieve success, let's collaborate! Reach out today, and together, we can transform your brand's presence on the platform.",
+    "Certified ✅ and dedicated to excellence, I love pushing the boundaries in the ever-changing world of Amazon advertising. 🚀 If you're looking to unlock your brand's Amazon PPC potential and achieve success.",
+    "let's collaborate! 💼 Reach out today, and together, we can transform your brand's presence on the platform. 🌟"
   ],
 };
 export {introduction, memoji , icons , projects , skills , introVideo}
