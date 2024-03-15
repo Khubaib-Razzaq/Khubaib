@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     host: true,
   },
-  base: "/Khubaib/",
+  base: "https://khubaib-razzaq.github.io/Khubaib/",
 
 })
