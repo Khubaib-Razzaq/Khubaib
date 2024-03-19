@@ -6,7 +6,7 @@ const SkillsCards = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="card w-1/2 lg:w-1/4 sm:w-1/2 h-[350px] flex flex-col items-center  bg-white rounded-xl border-4  cursor-pointer"
+            className="card w-1/2 lg:w-1/4 sm:w-1/2 hover:bg-primary-700  h-[350px] flex flex-col items-center  bg-white rounded-xl border-4  cursor-pointer"
           >
             <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
               <img
