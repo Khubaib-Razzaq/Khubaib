@@ -1,7 +1,7 @@
 import SectionTitle from "./elements/SectionTitle";
 import {introVideo} from "../Constants/constants"
 
-const intro = () => {
+const Intro = () => {
  return (
         <div id="Intor" className="w-full overflow-hidden-web flex justify-center">
           <div className="w-full h-full flex flex-col xl:w-[70%]">
@@ -16,4 +16,4 @@ const intro = () => {
   )
 }
 
-export default intro;
+export default Intro;

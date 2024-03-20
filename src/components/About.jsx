@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-[50%] flex h-full items-center justify-center bg-black">
             <div style={{backgroundColor:"grey"}}
-                className="w-[80%] lg:w-[50%] h-[300px] sm:h-[350px] flex justify-center items-center overflow-hidden rounded-full">
+                className="w-[80%] lg:w-[50%] h-[350px] flex justify-center items-center overflow-hidden rounded-full">
                 <img className="h-full w-full" src={memoji.image}/>
             </div>
           </div>

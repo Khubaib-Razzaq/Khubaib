@@ -14,7 +14,7 @@ const ProjectCard = ({
             toggler={toggleImageViewer}
             sources={image}
         />
-        <div className="text-grayscale-300 m-6 p-5 border-4 hover:bg-primary-700 rounded-lg lg:w-[45%] sm:w-[95%] border-primary-400">
+        <div className="text-grayscale-300 m-6 p-5 border-4 hover:bg-primary-700 rounded-lg md:w-[45%] lg:w-[40%]  sm:w-[95%] border-primary-400">
         <div
             onClick={()=>setToggleImageViewer(!toggleImageViewer)}
             className="relative w-full  h-[240px] cursor-pointer">

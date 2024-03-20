@@ -9,7 +9,7 @@ const Certificate = () => {
               <SectionTitle title="Amazon Certificate" subtitle="" />
             </div>
             <div className="h-full w-full justify-center items-center flex flex-row">
-                <img className="h-[80vh]" src={certificate} alt="certificate"/>
+                <img className="w-[90%] aspect-video" src={certificate} alt="certificate"/>
             </div>
          </div>
         </div>
