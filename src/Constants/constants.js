@@ -20,6 +20,7 @@ import {
     keywordResearch3,
     keywordResearch4,
     keywordResearch5,
+    keywordResearch6,
 } from "../assets"
 import {
     experincewithothers1,
@@ -42,7 +43,6 @@ import {
     ppcmanage,
     amazonCentral,
     amazonList,
-    research,
 } from "../assets"
 
 import {introVideo} from "../assets"
@@ -54,7 +54,15 @@ import {
     faGithub,
     faFacebook,
     faLinkedin,
+    faWhatsapp,
+    faGoogleWallet,
 } from "@fortawesome/free-brands-svg-icons";
+
+import {
+    faEnvelope,
+    faPhone,
+} from  "@fortawesome/free-solid-svg-icons";
+
 
 
 const memoji = {
@@ -62,11 +70,15 @@ const memoji = {
 };
 
 const icons = {
+    faPhone,
+    faEnvelope,
+    faGoogleWallet,
     faDiscord,
     faFacebook,
     faInstagram,
     faUpwork,
     faGithub,
+    faWhatsapp,
     faLinkedin,
 };
 
@@ -116,7 +128,7 @@ const projects = [
   },{
     name: "Keyword Research",
     description: "Proficient in the intricacies of Helium 10 and Jungle Scout, I specialize in extracting actionable insights for unparalleled Amazon PPC success. My track record speaks for itself, showcasing a talent for turning strategic analysis into high-impact campaigns that consistently outperform expectations",
-    image: [keywordResearch1,keywordResearch4,keywordResearch2,keywordResearch3,keywordResearch5],
+    image: [keywordResearch1,keywordResearch6,keywordResearch4,keywordResearch2,keywordResearch3,keywordResearch5],
   },
 {
     name: "Reports",

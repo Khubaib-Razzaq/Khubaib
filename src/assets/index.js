@@ -21,6 +21,7 @@ import keywordResearch2 from "./projects/keywordresearch2.png"
 import keywordResearch3 from "./projects/keywordresearch3.png"
 import keywordResearch4 from "./projects/keywordresearch4.png"
 import keywordResearch5 from "./projects/keywordresearch5.png"
+import keywordResearch6 from "./projects/keywordresearch6.png"
 import vc from "./skills/virtual-assistant.png"
 import compaignManagement from "./skills/compaignmanagment.png"
 import ppcAd from "./skills/ppcs.png"
@@ -28,7 +29,7 @@ import AmazonVendorCenteral from "./skills/amazon_vendor_central_logo_558x234-1.
 import ppcmanage from "./skills/PPC-MARKETING.png"
 import amazonCentral from "./skills/amazonsellerc.png"
 import amazonList from "./skills/amazonoptimixing.jpg"
-import certificate from "./certificate/certificate.jpg"
+import certificate from "./certificate/ss.png"
 import longterm1 from "./projects/longterm1.png"
 import longterm2 from "./projects/longterm2.png"
 import longterm3 from "./projects/longterm3.png"
@@ -56,6 +57,7 @@ export {
     keywordResearch3,
     keywordResearch4,
     keywordResearch5,
+    keywordResearch6,
     experincewithothers1,
     experincewithothers2,
     experincewithothers3,
