@@ -33,17 +33,25 @@ const SocialLinks = () => {
     <div className="flex justify-center items-center flex-col gap-2">
       <div>
 	<FontAwesomeIcon
-    	   	  className="text-sm text-grayscale-50 transition-all duration-75"
+    	   	  className="mr-2 text-sm text-grayscale-50 transition-all duration-75"
     	   	  icon={icons.faPhone}
     	   	/>
-    	    <span> +923094757751</span>
+    	    <span
+		style={{
+		color : "white",
+	    }}
+	    > +923094757751</span>
     	</div>
 	<div>
 	    <FontAwesomeIcon
-       	      className="text-sm text-grayscale-50 transition-all duration-75"
+       	      className="mr-2 text-sm text-grayscale-50 transition-all duration-75"
        	      icon={icons.faEnvelope}
        	    />
-       	    <span> khubaibrazzaqisi@gmail.com</span>
+       	    <span
+		style={{
+		color : "white",
+	    }}
+	    >   khubaibrazzaqisi@gmail.com</span>
 	</div>
        </div>
    </div>
