@@ -23,7 +23,7 @@ const ProjectCard = ({
                 alt={name}
                 className="w-full h-full rounded-lg absolute inset-0  bg-cover bg-center z-0"
             />
-              <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-2xl text-white font-semibold">Click to View</div>
+              <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-2xl text-white font-semibold">Click to View</div>
         </div>
 
         <div className="mt-3">
